@@ -1,0 +1,46 @@
+.primary_h1 {
+    color: var(--clr-neutral-900);
+    font-size: 4em;
+    font-weight: var(--fw-extra-bold);
+}
+
+.primary_button {
+    border: none;
+    background-color: var(--clr-primary-600);
+    color: var(--clr-neutral-900);
+    text-transform: uppercase;
+    font-weight: var(--fw-bold);
+    padding: 1em 2em;
+    letter-spacing: 5px;
+}
+
+.primary_aside {
+    background-color: var(--clr-neutral-900);
+    color: var(--clr-neutral-100);
+}
+
+.counter {
+    color: var(--clr-primary-600);
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: var(--fw-extra-bold);
+    line-height: 1.1;
+}
+
+.golden_text {
+    color: var(--clr-primary-400);
+}
+
+.align_self {
+    place-self: end start;
+}
+
+.text_medium {
+    font-size: 1.2rem;
+    font-weight: var(--fw-extra-bold);
+    color: var(--clr-neutral-900);
+}
+
+.padding_md {
+    padding: 2em;
+}

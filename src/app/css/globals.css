@@ -1,0 +1,23 @@
+@import "./globals/variables.css";
+@import "./globals/reset.css";
+
+:focus {
+    outline-offset: 0.25rem;
+}
+
+body {
+    font-family: var(--ff-base);
+    font-optical-sizing: auto;
+    max-width: 80rem;
+    margin: 0 auto;
+    color: var(--clr-neutral-600);
+    overflow: hidden;
+}
+
+h1 {
+    line-height: 1;
+}
+
+a {
+    text-decoration: none;
+}

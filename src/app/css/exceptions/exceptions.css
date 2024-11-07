@@ -1,0 +1,24 @@
+.secondary_article_header[data-type="tomato_text"]:hover,
+.secondary_article_header[data-type="tomato_text"]:focus-visible {
+    cursor: pointer;
+    color: var(--clr-primary-600);
+}
+
+.article_heading[data-type="golden_text"]:hover,
+.article_heading[data-type="golden_text"]:focus-visible {
+    cursor: pointer;
+    color: var(--clr-primary-400);
+}
+
+.primary_button[data-type="primary-inverted"]:hover,
+.primary_button[data-type="primary-inverted"]:focus-visible {
+    cursor: pointer;
+    color: var(--clr-neutral-100);
+    background-color: var(--clr-neutral-900);
+}
+
+.nav_item[data-type="nav-item-red"]:hover,
+.nav_item[data-type="nav-item-red"]:focus-visible {
+    cursor: pointer;
+    color: var(--clr-primary-600);
+}
