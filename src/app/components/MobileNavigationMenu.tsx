@@ -13,7 +13,7 @@ export default function MobileNavigationMenu({
         <div
             className={`[ mobile_navigation_menu ] ${
                 isClicked ? "[ bring_in ]" : ""
-            } ${!isClicked ? "[ visually_hidden ]" : ""}`}
+            }`}
             aria-label="Mobile Navigation Menu Container"
         >
             <nav aria-label="Mobile Main Menu Navugation" role="navigation">

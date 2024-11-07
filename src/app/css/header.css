@@ -3,6 +3,9 @@
     justify-content: space-between;
     align-items: center;
     margin: 2em 0;
+    position: sticky;
+    top: 0;
+    background-color: var(--clr-neutral-100);
 }
 
 .inline_flex_wrapper {
@@ -28,7 +31,7 @@
 }
 
 .mobile_navigation_menu {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: -75%;
     min-height: 100vh;
@@ -53,17 +56,27 @@
     height: 100vh;
     position: absolute;
     top: 0;
-    left: -100%;
+    right: 100%;
     background-color: var(--clr-neutral-900);
-    opacity: 0.4;
+    opacity: 0;
     z-index: -1;
+    animation: opacity 0.2s 1 ease-in-out forwards;
+}
+
+@keyframes opacity {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.5;
+    }
 }
 
 .menu_close {
     cursor: pointer;
     position: absolute;
-    top: 1rem;
-    right: 2rem;
+    top: 1.5rem;
+    right: 1.5rem;
 }
 
 .mobile_navigation_container {
